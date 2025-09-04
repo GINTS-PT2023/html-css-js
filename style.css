@@ -42,13 +42,15 @@
 }
 
 .cookie-box{
-    border: 2px solid black;
     padding: 1em 2em;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 800px;
+}
+
+.cookie-box p {
+  font-size: 5rem;
 }
 
 .cookie-box button{
