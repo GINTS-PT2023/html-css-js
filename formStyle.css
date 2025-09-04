@@ -1,0 +1,110 @@
+*, *::before, *::after{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-container{
+    border: 3px solid black;
+    border-radius: 20px;
+    padding: 1em;
+    width: 50%;
+}
+
+.input-container{
+    
+}
+
+.input-container div{
+    display: flex;
+    margin: 1em 0;
+    align-items: center;
+}
+
+.input-container label{
+    width: 40%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.input-container input{
+    width: 60%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: .5em;
+}
+
+.input-container label{
+    margin-right: .5em;
+}
+
+.level-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 1em 0s;
+}
+
+.level-container div{
+    border: 1px solid black;
+    padding: .5em;
+    border-radius: 5px;
+}
+
+.viegls{
+    background-color: greenyellow;
+}
+
+.videjs{
+    background-color: orange;
+}
+
+.gruts{
+    background-color: red;
+}
+
+.text-area-container{
+    display: flex;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.text-area-container textarea{
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.checkbox-container{
+    text-align: center;
+    margin: 1em;
+}
+
+
+.submit-container{
+    display: flex;
+    justify-content: center;
+}
+
+.submit-container input{
+    width: 80%;
+    font-size: 2rem;
+    padding: .5em 0;
+    border-radius: 20px;
+    border: 2px solid black;
+    background-color: aqua;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.submit-container input:hover{
+    background-color: blue;
+    color: white;
+}
+
+
