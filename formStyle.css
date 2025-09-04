@@ -1,5 +1,7 @@
 *, *::before, *::after{
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -7,18 +9,21 @@ body{
     justify-content: center;
     align-items: center;
     height: 100vh;
-}
+    background-image: url('https://images.pexels.com/photos/618833/pexels-photo-618833.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  font-family: "Comic Neue", cursive;}
 
 .form-container{
     border: 3px solid black;
     border-radius: 20px;
     padding: 1em;
     width: 50%;
+    backdrop-filter: blur(5px);
+    color: white;
 }
 
-.input-container{
-    
-}
 
 .input-container div{
     display: flex;
@@ -37,6 +42,9 @@ body{
     border: 2px solid black;
     border-radius: 5px;
     padding: .5em;
+    background-color: transparent;
+    backdrop-filter: blur(50px);
+    color: white;
 }
 
 .input-container label{
@@ -53,18 +61,19 @@ body{
     border: 1px solid black;
     padding: .5em;
     border-radius: 5px;
+    font-weight: bold;
 }
 
 .viegls{
-    background-color: greenyellow;
+    background-color: rgb(75, 122, 3);
 }
 
 .videjs{
-    background-color: orange;
+    background-color: rgb(146, 96, 3);
 }
 
 .gruts{
-    background-color: red;
+    background-color: rgb(141, 6, 6);
 }
 
 .text-area-container{
@@ -78,6 +87,10 @@ body{
     border: 2px solid black;
     border-radius: 5px;
     text-align: center;
+    background-color: transparent;
+    color: white;
+    backdrop-filter: blur(50px);
+
 }
 
 .checkbox-container{
